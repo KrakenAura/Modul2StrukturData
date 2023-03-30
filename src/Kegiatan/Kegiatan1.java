@@ -42,7 +42,7 @@ public class Kegiatan1 {
         System.out.println(hewan);
 
         System.out.println("\nOutput setelah menghapus index ke-1 sampai ke-5 : ");
-        hewan.subList(1,5).clear();
+        hewan.subList(2,5).clear();
         System.out.println(hewan);
 
         System.out.println("\nElemen pertama : "+hewan.get(0));
